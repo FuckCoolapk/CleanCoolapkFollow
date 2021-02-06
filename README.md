@@ -13,6 +13,13 @@ Clean your coolapk follow fastly.
 - fansNumber: users with less than or equal this number of followers will be unfollowed
 - isOperate: whether really do operate or not (true/false)
 
+# Rules
+
+- Exclude authenticated users
+- Unfollow if the username contains "酷友"
+- Unfollow if the user use the default avatar
+- Unfollow users with specified number of fans and below
+
 # License
 
 [WTFPL](LICENSE)
